@@ -30,7 +30,7 @@ The simplest way to use MicroFactory is by extending it into `ActiveSupport::Tes
 
 ```ruby
 class ActiveSupport::TestCase
-  extend FlexMinder::Factories
+  extend MicroFactory
   factory :State, name: 'Washington', code: 'WA'
 end
 
